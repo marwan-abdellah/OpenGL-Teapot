@@ -16,7 +16,7 @@ GLfloat yRot = 0.f;
 
 // Z-rotation
 GLfloat zRot = 0.f;
-\
+
 // X-rotation CUBE
 GLfloat xRotCube= 0.f;
 
@@ -123,7 +123,7 @@ void initialize(int argc, char** argv)
     glewInit();
 
     // Initializtion FBO
-    // initializeFBO();
+    initializeFBO();
 }
 
 /**
